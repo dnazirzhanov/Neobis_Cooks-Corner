@@ -14,6 +14,7 @@ from pathlib import Path
 from pathlib import Path
 import cloudinary_storage
 from datetime import timedelta
+import cloudinary
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
