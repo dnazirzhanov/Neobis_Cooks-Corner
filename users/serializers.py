@@ -4,7 +4,7 @@ from recipes.models import Recipe
 from recipes.serializers import RecipeSerializer
 from rest_framework import serializers
 from django.contrib import auth
-from .models import User, Hash
+from .models import User
 from rest_framework.exceptions import AuthenticationFailed
 from rest_framework_simplejwt.tokens import RefreshToken, TokenError
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
